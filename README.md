@@ -1,0 +1,2 @@
+# Diamond_Javascript
+Diamond
