@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draw Diamond</title>
+  </head>
+  <body>
+    <h1>Draw Diamond</h1>
+    <form action="GET" method="post">
+      <label for="number">Number of rows:</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        value="5"
+        min="5"
+        max="20"
+      />
+      <br /><br /><br />
+      <textarea name="diamond" id="diamond" rows="30" cols="30"></textarea>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
